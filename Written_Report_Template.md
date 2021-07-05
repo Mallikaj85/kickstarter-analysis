@@ -6,7 +6,7 @@
 
 Louise ran various campaign (total 4114) to raise funds concerning several patent categories such as film & video, theatre, music, photography, publishing, food, games, publishing, journalism and technology. The campaigns ran into various countries and gathered 463246 backers. Some campaigns ran successfully, reaching the campaign goal, some failed, some are still live and some eventually cancelled. 
 
-With Kickstarter data, Louis wishes to know how different campaign fared to launch dates and their funding goals. With huge set of data items (4114 rows, and 14 columns), its easier for her to use excel features such as pivot, charts or countifs function to analyse the assorted dataset.
+With Kickstarter data, Louise wishes to know how different campaign fared to launch dates and their funding goals. With huge set of data items (4114 rows, and 14 columns), its easier for her to use excel features such as pivot, charts or countifs function to analyse the assorted dataset.
 
 ### Purpose
 
