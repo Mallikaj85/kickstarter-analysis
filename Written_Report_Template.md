@@ -13,12 +13,6 @@ With Kickstarter data, Louis wishes to know how different campaign fared to laun
 The purpose of this analysis is to identify following:
 1.	In respective parent category for the respective year, how many (count) campaigns were successful, failed, canceled and live.  However, this module exercise aims to find out how the parent category “Theatre” has performed in each month in all campaign years concerning its outcome (except live). 
 2.	Secondly, Louise wishes to understand, based on goal size and range, the percentages of each outcomes (except live)
-![image](https://user-images.githubusercontent.com/86085614/124415045-fb9d9580-dd21-11eb-8353-71d2ae876c8f.png)
-![image](https://user-images.githubusercontent.com/86085614/124415053-048e6700-dd22-11eb-8f0f-281082fb7155.png)
-![image](https://user-images.githubusercontent.com/86085614/124415068-0a844800-dd22-11eb-9ba8-e39bb958f925.png)
-![image](https://user-images.githubusercontent.com/86085614/124415080-107a2900-dd22-11eb-87cb-d82f19801939.png)
-![image](https://user-images.githubusercontent.com/86085614/124415093-15d77380-dd22-11eb-97ed-f79580ff5c99.png)
-
 
 ## Analysis and Challenges
 
@@ -30,6 +24,12 @@ For Deliverable 1, Theater Outcomes by Launch Date – I used pivot table functi
 
 Finally, I rechecked the overall data set number which should be 4064 (not including live projects) and theatre category must have 1369 data sets. This approves the validity of analysing all numbers in the data sets and no leftover data.
 
+![image](https://user-images.githubusercontent.com/86085614/124415045-fb9d9580-dd21-11eb-8353-71d2ae876c8f.png)
+![image](https://user-images.githubusercontent.com/86085614/124415053-048e6700-dd22-11eb-8f0f-281082fb7155.png)
+![image](https://user-images.githubusercontent.com/86085614/124415068-0a844800-dd22-11eb-9ba8-e39bb958f925.png)
+![image](https://user-images.githubusercontent.com/86085614/124415080-107a2900-dd22-11eb-87cb-d82f19801939.png)
+![image](https://user-images.githubusercontent.com/86085614/124415093-15d77380-dd22-11eb-97ed-f79580ff5c99.png)
+
 The challenges I encountered were understanding whether the Date created conversion will be used as rows or not. Initially, when I transported the date created conversion into rows section, it displayed the list of dates on which that campaign ran. But when I put years as the main filter – the data set arranged as per months as row variables.
 
 The other challenge was sorting the campaign based on outcomes in descending order so "successful" is first. I was unable to find the sorting option, then I figured out that column labels can be sorted from Z to A as well. 
@@ -37,6 +37,11 @@ The other challenge was sorting the campaign based on outcomes in descending ord
 The possible challenge could be converting the “launched_at” into “Date Created Conversion” column with out studying the module beforehand. Converting that data would be difficult and would need the guidance of Instructor and TAs. 
 
 For Deliverable 2, the Outcomes Based on Goals Chart has been prepared based on suing COUNTIFS function. As instructed, I created following columns:  Goal, Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed, Percentage Canceled. I then assorted the goal column in 12 set of ranges as instructed in the module. For Number Successful column, I used following formulas to analyse the count of campaigns under the range and outcome category.
+
+![image](https://user-images.githubusercontent.com/86085614/124415193-50411080-dd22-11eb-8d6b-cfae62c1ff25.png)
+![image](https://user-images.githubusercontent.com/86085614/124415197-533c0100-dd22-11eb-9cff-f6d69377ff86.png)
+![image](https://user-images.githubusercontent.com/86085614/124415204-5c2cd280-dd22-11eb-813e-6ad741ed1079.png)
+
 
 For Goal, less than 1000, successful and plays as subcategory.
 =COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"successful", Kickstarter!$R:$R, "plays") 
@@ -70,6 +75,7 @@ For Deliverable 2, Louise wishes to understand the percentage breakup of outcome
 ### Challenges and Difficulties Encountered
 
 •	In Deliverable 1, The challenges I encountered were understanding whether the Date created conversion will be used as rows or not. Initially, when I transported the date created conversion into rows section, it displayed the list of dates on which that campaign ran. But when I put years as the main filter – the data set arranged as per months as row variables. The other challenge was sorting the campaign based on outcomes in descending order so "successful" is first. I was unable to find the sorting option, then I figured out that column labels can be sorted from Z to A as well. 
+
 •	In Deliverable 2, the main challenge I faced was understanding the COUNTIFS function. It was overwhelming at first, as I sometimes dragged the formula from “less than 1000” to “greater than 50000” and result was absurd. Then I checked the $ sign I can put on selecting data criteria for COUNTIFS function. This process made my analysis easier for Number Successful column. The other issue I felt was typing the range criteria in the COUNTIFS formula. For example, =COUNTIFS(Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"successful", Kickstarter!$R:$R, "plays"). Here in each 12 range, I typed the >=1000 or <=49999 manually. This could be easier and non time consuming if I knew the better linking option. So that no matter what my range is I can conclude any amount of data. 
 
 
