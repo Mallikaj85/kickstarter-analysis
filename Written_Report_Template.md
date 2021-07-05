@@ -5,14 +5,19 @@
 ## Overview of Project
 
 Louise ran various campaign (total 4114) to raise funds concerning several patent categories such as film & video, theatre, music, photography, publishing, food, games, publishing, journalism and technology. The campaigns ran into various countries and gathered 463246 backers. Some campaigns ran successfully, reaching the campaign goal, some failed, some are still live and some eventually cancelled. 
-With Kickstarter data, Louis wishes to know how different campaign fared to launch dates and their funding goals. With huge set of data items (4114 rows, and 14 columns), its easier for her to use excel features such as pivot, charts or countifs function to analyse the assorted dataset.
 
+With Kickstarter data, Louis wishes to know how different campaign fared to launch dates and their funding goals. With huge set of data items (4114 rows, and 14 columns), its easier for her to use excel features such as pivot, charts or countifs function to analyse the assorted dataset.
 
 ### Purpose
 
 The purpose of this analysis is to identify following:
 1.	In respective parent category for the respective year, how many (count) campaigns were successful, failed, canceled and live.  However, this module exercise aims to find out how the parent category “Theatre” has performed in each month in all campaign years concerning its outcome (except live). 
 2.	Secondly, Louise wishes to understand, based on goal size and range, the percentages of each outcomes (except live)
+![image](https://user-images.githubusercontent.com/86085614/124415045-fb9d9580-dd21-11eb-8353-71d2ae876c8f.png)
+![image](https://user-images.githubusercontent.com/86085614/124415053-048e6700-dd22-11eb-8f0f-281082fb7155.png)
+![image](https://user-images.githubusercontent.com/86085614/124415068-0a844800-dd22-11eb-9ba8-e39bb958f925.png)
+![image](https://user-images.githubusercontent.com/86085614/124415080-107a2900-dd22-11eb-87cb-d82f19801939.png)
+![image](https://user-images.githubusercontent.com/86085614/124415093-15d77380-dd22-11eb-97ed-f79580ff5c99.png)
 
 
 ## Analysis and Challenges
