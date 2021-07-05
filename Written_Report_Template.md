@@ -45,6 +45,7 @@ For Deliverable 2, the Outcomes Based on Goals Chart has been prepared based on 
 
 For Goal, less than 1000, successful and plays as subcategory.
 =COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"successful", Kickstarter!$R:$R, "plays") 
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/86085614/124415304-95654280-dd22-11eb-9453-f1da5f478ce3.png)
 
 For Goal, more than equal to 1000, less tan equal to 4999, successful and plays as subcategory.
 =COUNTIFS(Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"successful", Kickstarter!$R:$R, "plays")
@@ -62,6 +63,7 @@ Here in each 12 range, I typed the >=1000 or <=49999 manually. This could be eas
 ### Analysis of Outcomes Based on Launch Date
 
 The overview of the Deliverable 1 is based on extracting data for Parent category theatre and understanding the outcomes based on the campaign’s launch Date (month wise). Overall, the month of May there has been the greatest rise in successful campaigns. In October month, no campaign has been cancelled.
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/86085614/124415364-b0d04d80-dd22-11eb-8ea3-965b6c95e34e.png)
 
 ### Analysis of Outcomes Based on Goals
 
@@ -70,6 +72,7 @@ For Deliverable 2, Louise wishes to understand the percentage breakup of outcome
 •	 As the goal range went beyond greater than 45000, the deals were failed on higher percentages (>88%).
 •	At 15000 to 19999 range, there were equal distribution between failed and successful campaigns.
 •	There are no cancelled campaigns under plays subcategory.
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/86085614/124415335-a57d2200-dd22-11eb-8739-603c040975bc.png)
 
 
 ### Challenges and Difficulties Encountered
