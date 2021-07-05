@@ -104,4 +104,5 @@ For Deliverable 2, Louise wishes to understand the percentage breakup of outcome
 
 
 - What are some other possible tables and/or graphs that we could create?
+
 We could create Category Statistics, Subcategory Statistics, Outcomes Based on Launch Date – Parent and subcategory wise, Kickstarters – country wise, Kickstarters – outcome wise, Kickstarters – goals outcomes – currency wise.
