@@ -45,7 +45,6 @@ For Deliverable 2, the Outcomes Based on Goals Chart has been prepared based on 
 
 For Goal, less than 1000, successful and plays as subcategory.
 =COUNTIFS(Kickstarter!$D:$D,"<1000",Kickstarter!$F:$F,"successful", Kickstarter!$R:$R, "plays") 
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/86085614/124415304-95654280-dd22-11eb-9453-f1da5f478ce3.png)
 
 For Goal, more than equal to 1000, less tan equal to 4999, successful and plays as subcategory.
 =COUNTIFS(Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"successful", Kickstarter!$R:$R, "plays")
